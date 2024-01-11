@@ -96,7 +96,7 @@ header nav a {
 }
 @media (min-width: 100px) and (max-width: 310px) {
   #studio {
-    width: 190vw;
+    width: 150vw;
     height: 180vh;
   }
   #studio .textbox h2 {
@@ -109,16 +109,10 @@ header nav a {
     margin: 55px 0 0 0;
   }
 }
-@media (min-width: 311px) and (max-width: 390px) {
+@media (min-width: 311px) and (max-width: 430px) {
   #studio {
-    width: 180vw;
-    height: 220vh;
-  }
-  #studio .textbox h2 {
-    margin: 70px 50px 20px;
-  }
-  #studio .textbox h4 {
-    margin: 0 110px;
+    width: 110vw;
+    height: 90vh;
   }
   #studio .btn {
     margin: 45px 0 0 0;
