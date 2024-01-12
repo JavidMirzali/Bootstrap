@@ -35,7 +35,7 @@ header nav a {
   cursor: pointer;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 390px) {
   header {
     padding: 35px 15px;
   }
@@ -89,7 +89,6 @@ header nav a {
   font-weight: 700;
   padding: 20px 55px;
   background-color: #ffc800;
-  transition: 2s;
 }
 #studio .btn h2 {
   cursor: pointer;
@@ -97,22 +96,18 @@ header nav a {
 @media (min-width: 100px) and (max-width: 310px) {
   #studio {
     width: 150vw;
-    height: 180vh;
-  }
-  #studio .textbox h2 {
-    margin: 70px 60px 20px;
+    height: 85vh;
   }
   #studio .textbox h4 {
-    margin: 0 110px;
+    margin: 0 50px;
   }
   #studio .btn {
-    margin: 55px 0 0 0;
+    margin: 35px 0 0 0;
   }
 }
-@media (min-width: 311px) and (max-width: 430px) {
+@media (min-width: 311px) and (max-width: 390px) {
   #studio {
-    width: 110vw;
-    height: 90vh;
+    height: 80vh;
   }
   #studio .btn {
     margin: 45px 0 0 0;
@@ -230,6 +225,38 @@ header nav a {
 #portfolio .icon i:hover {
   opacity: 0.8;
   background-color: #f5dd08;
+}
+@media (min-width: 250px) and (max-width: 280px) {
+  #portfolio .icon i {
+    width: 93%;
+    height: 20%;
+    padding-left: 100px;
+    padding-top: 65px;
+  }
+}
+@media (min-width: 281px) and (max-width: 300px) {
+  #portfolio .icon i {
+    width: 93%;
+    height: 22%;
+    padding-left: 100px;
+    padding-top: 65px;
+  }
+}
+@media (min-width: 301px) and (max-width: 320px) {
+  #portfolio .icon i {
+    width: 93%;
+    height: 23%;
+    padding-left: 100px;
+    padding-top: 65px;
+  }
+}
+@media (min-width: 320px) and (max-width: 390px) {
+  #portfolio .icon i {
+    width: 94%;
+    height: 29%;
+    padding-left: 155px;
+    padding-top: 100px;
+  }
 }
 
 #about {
