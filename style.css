@@ -39,10 +39,6 @@ header nav a {
   header {
     padding: 35px 15px;
   }
-  header .imgbox {
-    width: 260px;
-    height: 40px;
-  }
   .btn {
     border-radius: 10px;
     font-size: 25px;
@@ -425,15 +421,16 @@ header nav a {
   color: rgba(0, 0, 0, 0.1764705882);
   font-size: 18px;
   font-weight: 700;
-  height: 50px;
-  width: 300px;
-  margin: 0 0 22px 0;
+  padding: 20px;
+  width: 100%;
+  margin: 0 0 26px 0;
 }
-#contact .demo .add input {
+#contact .demo textarea {
   font-size: 20px;
   font-weight: 700;
-  margin: 0 25px 0 0;
-  color: rgba(0, 0, 0, 0.1764705882);
+  padding: 18px;
+  width: 100%;
+  border-radius: 5px;
 }
 #contact .box .btn {
   padding: 20px 55px;
@@ -450,7 +447,7 @@ header nav a {
     background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
   }
   #contact .box .btn {
-    margin-top: 35px;
+    margin: 55px 45px 0;
   }
 }
 
