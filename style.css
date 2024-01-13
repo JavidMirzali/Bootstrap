@@ -202,6 +202,20 @@ header nav a {
   opacity: 0.8;
   background-color: #f5dd08;
 }
+@media (max-width: 300px) {
+  #portfolio .icon i {
+    width: 90%;
+    height: 19%;
+    padding-left: 95px;
+    padding-top: 55px;
+  }
+}
+@media (min-width: 380px) and (max-width: 390px) {
+  #portfolio .icon i {
+    width: 94%;
+    height: 29%;
+  }
+}
 
 #about {
   padding-bottom: 50px;
@@ -294,8 +308,8 @@ header nav a {
     font-weight: 600;
     font-size: 15px;
     position: relative;
-    bottom: 45%;
-    right: 30%;
+    bottom: 40%;
+    right: 32%;
   }
 }
 
