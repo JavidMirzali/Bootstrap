@@ -60,7 +60,7 @@ header nav a {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
   background-position: center center;
   background-size: cover;
-  min-height: 100vh;
+  height: 100vh;
 }
 #studio .textbox {
   color: white;
@@ -88,9 +88,17 @@ header nav a {
 #studio .btn h2 {
   cursor: pointer;
 }
-@media (max-width: 999px) {
+@media (max-width: 299px) {
   #studio .btn {
-    margin-right: 65px;
+    margin: 0 5px;
+  }
+}
+@media (min-width: 300px) and (max-width: 999px) {
+  #studio {
+    height: 75vh;
+  }
+  #studio .btn {
+    margin: 0 5px;
   }
 }
 
