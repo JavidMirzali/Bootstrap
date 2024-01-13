@@ -36,21 +36,18 @@ header nav a {
 }
 
 @media (max-width: 990px) {
-  header {
-    padding: 35px 15px;
-  }
   .btn {
-    border-radius: 10px;
-    font-size: 25px;
+    border-radius: 5px;
+    font-size: 14px;
     color: #9999ad;
     margin: 0 0 0 90px;
-    padding: 15px 25px;
+    padding: 7px 11px;
     font-weight: 600;
     border: 1px solid #9999ad;
     display: inline-flex;
   }
   .btn i {
-    margin: 0 0 0 15px;
+    margin: 0 0 0 10px;
   }
   nav a {
     display: none;
@@ -272,7 +269,7 @@ header nav a {
     left: 0;
   }
 }
-@media (min-width: 300px) and (max-width: 768px) {
+@media (min-width: 200px) and (max-width: 768px) {
   #about .box h2, #about .box h3, #about .box h5, #about .box h6 {
     margin: 0 20px 0 110px;
   }
