@@ -30,14 +30,13 @@
             padding: 50px 0 10px
 
     .imgbox
-        padding: 0 70px
+        margin: 70px
         img
-            border-radius: 50%
             border: 8px solid #dfe0e1
+            border-radius: 50%
 
     ul
         display: flex
-        flex-direction: row
         justify-content: center
         li
             font-size: 18px
@@ -50,6 +49,17 @@
             i
                 cursor: pointer
 
-    @media ( max-width: 480px)
+    @media ( min-width: 300px ) and ( max-width: 499px )
         .imgbox
-            padding: 40px 0 0
+            margin: 0 20px
+
+    @media ( min-width: 500px ) and ( max-width: 599px )
+        .imgbox
+            margin: 0 60px
+    @media ( min-width: 600px ) and ( max-width: 767px )
+        .imgbox
+            padding: 0 50px
+
+    @media ( min-width: 768px ) and ( max-width: 1200px )
+        .imgbox
+            margin: 0 20px

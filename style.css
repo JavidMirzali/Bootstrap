@@ -360,15 +360,14 @@ header nav a {
   padding: 50px 0 10px;
 }
 #team .imgbox {
-  padding: 0 70px;
+  margin: 70px;
 }
 #team .imgbox img {
-  border-radius: 50%;
   border: 8px solid #dfe0e1;
+  border-radius: 50%;
 }
 #team ul {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
 #team ul li {
@@ -383,9 +382,24 @@ header nav a {
 #team ul li i {
   cursor: pointer;
 }
-@media (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 499px) {
   #team .imgbox {
-    padding: 40px 0 0;
+    margin: 0 20px;
+  }
+}
+@media (min-width: 500px) and (max-width: 599px) {
+  #team .imgbox {
+    margin: 0 60px;
+  }
+}
+@media (min-width: 600px) and (max-width: 767px) {
+  #team .imgbox {
+    padding: 0 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  #team .imgbox {
+    margin: 0 20px;
   }
 }
 
