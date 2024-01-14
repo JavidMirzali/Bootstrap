@@ -195,21 +195,27 @@ header nav a {
   line-height: 1.3;
   padding-bottom: 25px;
 }
-#portfolio .icon i {
+#portfolio .box {
+  position: relative;
+}
+#portfolio .box .icon {
   color: white;
   position: absolute;
   cursor: pointer;
-  width: 26.05%;
-  height: 42.2%;
-  padding-left: 155px;
-  padding-top: 95px;
-  font-size: 55px;
-  font-weight: 700;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   opacity: 0;
+  background-color: #4caffa;
 }
-#portfolio .icon i:hover {
-  opacity: 0.8;
-  background-color: #f5dd08;
+#portfolio .box .icon i {
+  font-size: 60px;
+}
+#portfolio .box .icon:hover {
+  opacity: 0.9;
+  transition: 0.2s;
 }
 @media (max-width: 300px) {
   #portfolio .icon i {
