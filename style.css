@@ -21,6 +21,11 @@ header {
   padding: 10px 0;
   background-color: #212529;
 }
+header .Menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 header .imgbox {
   width: 140px;
   height: 20px;
@@ -166,14 +171,14 @@ header nav a {
   padding: 40px 0 60px;
   background-color: #f6f6f6;
 }
-#portfolio .textboox {
+#portfolio .divbox {
   text-align: center;
 }
-#portfolio .textboox h1 {
+#portfolio .divbox h1 {
   font-size: 35px;
   font-weight: 700;
 }
-#portfolio .textboox h3 {
+#portfolio .divbox h3 {
   padding: 18px 0 50px;
   line-height: 1.3;
   color: #6a6a6a;
@@ -267,7 +272,7 @@ header nav a {
   border-radius: 50%;
   overflow: hidden;
 }
-#about .Bigbox .boxe {
+#about .Bigbox .boxes {
   position: relative;
   left: 88%;
   padding-top: 30px;
@@ -284,7 +289,7 @@ header nav a {
   padding: 5px 48px;
 }
 @media (max-width: 299px) {
-  #about .Bigbox .boxe {
+  #about .Bigbox .boxes {
     left: 0;
   }
 }
@@ -301,7 +306,7 @@ header nav a {
   #about .box .divtext h2, #about .box .divtext h3, #about .box .divtext h6 {
     text-align: start;
   }
-  #about .Bigbox .boxe {
+  #about .Bigbox .boxes {
     left: 0;
     padding-top: 30px;
     width: 90px;
