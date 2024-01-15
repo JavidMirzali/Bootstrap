@@ -18,13 +18,8 @@ header {
   position: fixed;
   z-index: 2;
   width: 100%;
-  padding: 10px 0;
+  padding: 5px 0;
   background-color: #212529;
-}
-header .Menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 header .imgbox {
   width: 140px;
@@ -213,7 +208,7 @@ header nav a {
   justify-content: center;
   align-items: center;
   opacity: 0;
-  background-color: #4caffa;
+  background-color: #ffc800;
 }
 #portfolio .box .icon i {
   font-size: 60px;
@@ -360,15 +355,16 @@ header nav a {
   padding: 50px 0 10px;
 }
 #team .imgbox {
-  margin: 0 70px;
+  padding: 0 70px;
 }
 #team .imgbox img {
-  border: 8px solid #dfe0e1;
   border-radius: 50%;
+  border: 8px solid #dfe0e1;
 }
 #team ul {
   display: flex;
   justify-content: center;
+  flex-direction: row;
 }
 #team ul li {
   font-size: 18px;
@@ -382,49 +378,43 @@ header nav a {
 #team ul li i {
   cursor: pointer;
 }
-@media (min-width: 300px) and (max-width: 499px) {
+@media (max-width: 480px) {
   #team .imgbox {
-    margin: 0 20px;
+    padding: 40px 1px 0;
+  }
+  #team .textbox h4 {
+    padding-bottom: 10px;
   }
 }
-@media (min-width: 500px) and (max-width: 599px) {
+@media (min-width: 767px) and (max-width: 1000px) {
   #team .imgbox {
-    margin: 0 60px;
-  }
-}
-@media (min-width: 600px) and (max-width: 767px) {
-  #team .imgbox {
-    padding: 0 50px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1200px) {
-  #team .imgbox {
-    margin: 0 20px;
+    width: 200px;
+    padding: 0 50px 0 0;
   }
 }
 
 #microsoft .one {
-  padding: 50px 30px;
+  margin: 50px 30px;
 }
 #microsoft .one img {
   cursor: pointer;
 }
 #microsoft .two {
-  padding: 50px 30px;
+  margin: 45px 30px;
   margin-left: 65px;
 }
 #microsoft .two img {
   cursor: pointer;
 }
 #microsoft .three {
-  padding: 50px 30px;
+  margin: 50px 30px;
   margin-left: 65px;
 }
 #microsoft .three img {
   cursor: pointer;
 }
 #microsoft .four {
-  padding: 50px 30px;
+  margin: 45px 30px;
   margin-left: 72px;
 }
 #microsoft .four img {
