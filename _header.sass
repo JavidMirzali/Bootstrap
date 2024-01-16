@@ -4,7 +4,7 @@ header
     width: 100%
     padding: 5px 0
     background-color: #212529
-  
+
     .imgbox
         width: 140px
         height: 20px
@@ -21,18 +21,40 @@ header
 @media ( max-width: 990px )
     header
         padding: 20px 0
+        .imgbox
+            display: flex
+            align-items: start
 
-    .btn
-        border-radius: 5px
-        font-size: 14px
-        color: #9999ad
-        margin: 0 0 0 90px
-        padding: 7px 11px
-        font-weight: 600
-        border: 1px solid #9999ad
-        display: inline-flex
-        i
-            margin: 0 0 0 10px
-    nav
-        a
-            display: none
+        .btn
+            border-radius: 5px
+            font-size: 14px
+            color: #9999ad
+            margin: 0 0 0 50px
+            padding: 7px 11px
+            font-weight: 600
+            border: 1px solid #9999ad
+            display: flex
+            justify-content: between
+            align-items: center
+            i
+                margin: 0 0 0 10px
+        nav
+            a
+                display: none
+@media ( min-width: 850px ) and ( max-width: 999px )
+    header
+        .btn
+            position: fixed
+            right: 130px
+
+@media ( min-width: 575px ) and ( max-width: 849px )
+    header
+        .btn
+            position: fixed
+            right: 35px
+
+@media ( min-width: 300px ) and ( max-width: 574px )
+    header
+        .btn
+            position: fixed
+            right: 10px
