@@ -131,7 +131,7 @@ header nav a {
     height: 80vh;
   }
 }
-@media (min-width: 491px) and (max-width: 1920px) {
+@media (min-width: 491px) and (max-width: 1350px) {
   #studio {
     height: 70vh;
   }
