@@ -354,43 +354,34 @@ header nav a {
   color: #969696;
   padding: 50px 0 10px;
 }
-#team .imgbox {
-  padding: 0 70px;
+#team .box .imgbox {
+  width: 220px;
 }
-#team .imgbox img {
-  border-radius: 50%;
+#team .box .imgbox img {
+  border-radius: 100%;
   border: 8px solid #dfe0e1;
 }
-#team ul {
+#team .box .textbox {
+  text-align: center;
+  margin: 15px 0;
+}
+#team .box ul {
   display: flex;
   justify-content: center;
-  flex-direction: row;
 }
-#team ul li {
-  font-size: 18px;
-  background-color: #151029;
-  cursor: pointer;
-  border-radius: 30px;
+#team .box ul li {
+  margin: 9px;
+}
+#team .box ul li .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: 38px;
+  height: 38px;
+  border-radius: 40px;
+  background-color: #1f1e1e;
   color: white;
-  border: 12px solid #151029;
-  margin: 5px 10px;
-}
-#team ul li i {
-  cursor: pointer;
-}
-@media (max-width: 480px) {
-  #team .imgbox {
-    padding: 40px 1px 0;
-  }
-  #team .textbox h4 {
-    padding-bottom: 10px;
-  }
-}
-@media (min-width: 767px) and (max-width: 1000px) {
-  #team .imgbox {
-    width: 200px;
-    padding: 0 50px 0 0;
-  }
 }
 
 #microsoft .one {
