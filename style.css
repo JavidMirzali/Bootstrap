@@ -64,7 +64,7 @@ header nav a {
 }
 @media (min-width: 850px) and (max-width: 999px) {
   header {
-    padding: 20px 0;
+    padding: 25px 0;
   }
   header .btn {
     position: fixed;
@@ -73,7 +73,7 @@ header nav a {
 }
 @media (min-width: 575px) and (max-width: 849px) {
   header {
-    padding: 20px 0;
+    padding: 25px 0;
   }
   header .btn {
     position: fixed;
@@ -82,7 +82,7 @@ header nav a {
 }
 @media (min-width: 300px) and (max-width: 574px) {
   header {
-    padding: 20px 0;
+    padding: 25px 0;
   }
   header .btn {
     position: fixed;
@@ -326,7 +326,7 @@ header nav a {
     margin: 0 20px 0 110px;
   }
   #about .box .imgbox {
-    left: 0;
+    left: 10px;
     width: 90px;
     height: 90px;
     border: 7px solid #e9ecef;
@@ -435,8 +435,8 @@ header nav a {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   border-radius: 40px;
   background-color: #1f1e1e;
   color: white;
@@ -527,44 +527,48 @@ header nav a {
 #website {
   padding: 20px 0;
 }
-#website .icon ul {
+#website .bigbox ul {
   display: flex;
-  flex-direction: row;
   justify-content: center;
 }
-#website .icon ul li {
-  font-size: 18px;
-  border-radius: 30px;
-  cursor: pointer;
-  background-color: #151029;
-  color: white;
-  border: 12px solid #151029;
+#website .bigbox ul li {
   margin: 0 10px;
 }
-#website .icon ul li i {
+#website .bigbox ul li .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #1f1e1e;
+  color: white;
+}
+#website .bigbox ul li .icon i {
   cursor: pointer;
 }
-#website .textbox h3 {
+#website .box h3 {
   margin-top: 15px;
 }
-#website .textbox2 h4 {
+#website .textbox h4 {
   margin-top: 15px;
   padding: 0 35px 0 25px;
   display: inline-block;
 }
-#website .textbox2 h3 {
+#website .textbox h3 {
   margin-top: 15px;
   display: inline-block;
 }
 @media (max-width: 750px) {
-  #website .textbox {
+  #website .box {
     display: flex;
     justify-content: center;
   }
-  #website .icon ul li {
+  #website .bigbox ul li {
     margin-top: 20px;
   }
-  #website .textbox2 h4 {
+  #website .textbox h4 {
     margin-right: 45px;
   }
 }/*# sourceMappingURL=style.css.map */
