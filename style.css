@@ -326,7 +326,7 @@ header nav a {
     left: 0;
   }
 }
-@media (min-width: 200px) and (max-width: 768px) {
+@media (max-width: 768px) {
   #about .box h2, #about .box h3, #about .box h5, #about .box h6 {
     margin: 0 20px 0 110px;
   }
@@ -447,32 +447,37 @@ header nav a {
   color: white;
 }
 
+#microsoft {
+  padding: 60px 0;
+}
 #microsoft .one {
-  margin: 50px 30px;
+  width: 200px;
 }
 #microsoft .one img {
   cursor: pointer;
 }
 #microsoft .two {
-  margin: 45px 30px;
-  margin-left: 65px;
+  width: 150px;
 }
 #microsoft .two img {
   cursor: pointer;
 }
 #microsoft .three {
-  margin: 50px 30px;
-  margin-left: 65px;
+  width: 150px;
 }
 #microsoft .three img {
   cursor: pointer;
 }
 #microsoft .four {
-  margin: 45px 30px;
-  margin-left: 72px;
+  width: 100px;
 }
 #microsoft .four img {
   cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  #microsoft .imgbox {
+    margin-top: 50px;
+  }
 }
 
 #contact {
