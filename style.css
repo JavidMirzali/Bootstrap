@@ -93,40 +93,45 @@ header nav a {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
   background-position: center center;
   background-size: cover;
-  height: 100vh;
 }
-#studio .textbox {
+#studio .box {
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#studio .box .textbox h2 {
   color: white;
-  text-align: center;
+  font-size: 40px;
+  margin-bottom: 30px;
 }
-#studio .textbox h2 {
-  padding: 180px 0 35px;
-  font-size: 50px;
-  font-weight: 400;
-}
-#studio .textbox h4 {
-  margin-bottom: 70px;
+#studio .box .textbox h4 {
+  color: white;
   font-size: 75px;
+  margin: 0 0 50px 0;
   font-weight: 700;
 }
-#studio .btn {
+#studio .box .textbox .btn {
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 20px;
   font-weight: 700;
   padding: 20px 55px;
   background-color: #ffc800;
 }
-#studio .btn h2 {
+#studio .box .textbox .btn h3 {
   cursor: pointer;
+  font-size: 20px;
 }
-@media (min-width: 265px) and (max-width: 1300px) {
-  #studio {
-    height: 80vh;
+#studio .box .textbox .btn h3:hover {
+  background-color: #c28d07;
+}
+@media (max-width: 576px) {
+  #studio .box .textbox h2 {
+    font-size: 35px;
   }
-  #studio .btn {
-    margin: 0 5px;
+  #studio .box .textbox h4 {
+    font-size: 70px;
   }
 }
 
