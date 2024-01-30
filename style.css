@@ -390,14 +390,11 @@ header nav a {
   font-size: 18px;
   padding-bottom: 10px;
 }
-#team .textbox h6 {
-  font-size: 18px;
-  color: #969696;
-}
 #team .textbox p {
   font-size: 18px;
   color: #969696;
-  padding: 50px 0 10px;
+  line-height: 30px;
+  padding: 50px 230px 10px;
 }
 #team .box .imgbox {
   width: 220px;
@@ -435,6 +432,14 @@ header nav a {
 }
 #team .box ul li .icon i {
   cursor: pointer;
+}
+@media (max-width: 999px) {
+  #team .box .imgbox {
+    margin-top: 25px;
+  }
+  #team .textbox p {
+    padding: 60px 0;
+  }
 }
 
 #microsoft {
