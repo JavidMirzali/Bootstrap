@@ -444,7 +444,15 @@ header nav a {
   height: 40px;
   border-radius: 40px;
   background-color: #1f1e1e;
+  cursor: pointer;
   color: white;
+}
+#team .box ul li .icon:hover {
+  background-color: #424649;
+  transition: 0.5s;
+}
+#team .box ul li .icon i {
+  cursor: pointer;
 }
 
 #microsoft {
@@ -519,7 +527,7 @@ header nav a {
   padding: 20px 55px;
   border-radius: 5px;
   opacity: 0.5;
-  background-color: #ffc800;
+  background-color: #f7e710;
   color: white;
   font-size: 20px;
   font-weight: 700;
@@ -534,20 +542,28 @@ header nav a {
   }
 }
 
-#website {
+#footer {
   padding: 20px 0;
 }
-#website .bigbox ul {
+#footer .menu a {
+  color: #535151;
+  font-size: 17px;
+}
+#footer .menu span {
+  margin: 0 20px;
+}
+#footer .menu ul {
   display: flex;
   justify-content: center;
 }
-#website .bigbox ul li {
+#footer .menu ul li {
   margin: 0 10px;
 }
-#website .bigbox ul li .icon {
+#footer .menu ul li .icon {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   font-size: 16px;
   width: 40px;
   height: 40px;
@@ -555,30 +571,19 @@ header nav a {
   background-color: #1f1e1e;
   color: white;
 }
-#website .bigbox ul li .icon i {
+#footer .menu ul li .icon:hover {
+  background-color: #424649;
+  transition: 0.5s;
+}
+#footer .menu ul li .icon i {
   cursor: pointer;
 }
-#website .box h3 {
-  margin-top: 15px;
-}
-#website .textbox h4 {
-  margin-top: 15px;
-  padding: 0 35px 0 25px;
-  display: inline-block;
-}
-#website .textbox h3 {
-  margin-top: 15px;
-  display: inline-block;
-}
-@media (max-width: 750px) {
-  #website .box {
+@media (max-width: 768px) {
+  #footer .menu {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
   }
-  #website .bigbox ul li {
-    margin-top: 20px;
-  }
-  #website .textbox h4 {
-    margin-right: 45px;
+  #footer .menu ul {
+    margin: 15px 0;
   }
 }/*# sourceMappingURL=style.css.map */
