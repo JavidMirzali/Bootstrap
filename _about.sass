@@ -63,7 +63,8 @@
         .Bigbox
             .boxes
                 left: 0
-    @media  ( max-width: 768px )
+
+    @media  ( max-width: 576px )
 
         .box
             h2, h3, h5, h6
@@ -86,6 +87,31 @@
                 height: 90px
                 border: 7px solid #e9ecef
 
+            h4
+                font-weight: 600
+                font-size: 15px
+                position: relative
+                bottom: 45%
+                right: 35%
+
+    @media ( min-width: 576px ) and ( max-width: 767px )
+        .box
+            .imgbox
+                left: 50px
+                width: 90px
+                height: 90px
+                border: 7px solid #e9ecef
+            .divtext
+                h2, h3, h6
+                    text-align: start
+        .Bigbox
+            display: flex
+            justify-content: start
+            .boxes
+                padding-top: 30px
+                width: 90px
+                height: 90px
+                border: 7px solid #e9ecef
             h4
                 font-weight: 600
                 font-size: 15px
