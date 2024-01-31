@@ -383,7 +383,7 @@ header nav a {
 #team .textbox h2 {
   font-size: 30px;
   font-weight: 700;
-  padding: 25px 0 10px;
+  padding: 10px 0 10px;
 }
 #team .textbox h5 {
   color: #969696;
@@ -412,7 +412,7 @@ header nav a {
   justify-content: center;
 }
 #team .box ul li {
-  margin: 9px;
+  margin: 0 10px;
 }
 #team .box ul li .icon {
   display: flex;
@@ -438,7 +438,7 @@ header nav a {
     margin-top: 25px;
   }
   #team .textbox p {
-    padding: 60px 0;
+    padding: 50px 0 0;
   }
 }
 
