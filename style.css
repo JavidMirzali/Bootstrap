@@ -426,10 +426,9 @@ header nav a {
 }
 #team .box .imgbox {
   width: 220px;
-}
-#team .box .imgbox img {
   border-radius: 100%;
-  border: 8px solid #dfe0e1;
+  border: 8px solid rgba(135, 129, 129, 0.1921568627);
+  overflow: hidden;
 }
 #team .box .textbox {
   text-align: center;
